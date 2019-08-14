@@ -1,10 +1,10 @@
 module.exports = [
   {
-    name: 'Emily',
-    location: 'London'
+    name: 'Ali',
+    location: 'Gaza'
   },
   {
     name: 'Shireen',
     location: 'Nazareth'
-  }
+  },
 ];
