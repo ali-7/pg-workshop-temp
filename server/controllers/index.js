@@ -1,10 +1,9 @@
 const express = require("express");
-const users = require("./static");
+const user = require("./user");
 
 const router = express.Router();
 
-router.get("/users", (req, res) => {
-  res.json(users);
-});
+router.get("/users", user.getUsers);
+router.post("/create-user", user.add);
 
 module.exports = router;
